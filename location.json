@@ -28,5 +28,24 @@
         "name": "Sydney",
         "latitude": -33.8688,
         "longitude": 151.2093
+    },
+    {
+        "id": "tokyo",
+        "name": "Tokyo",
+        "latitude": 35.6804,
+        "longitude": 139.7690
+    },
+    {
+        "id": "moscow",
+        "name": "Moscow",
+        "latitude": 55.7558,
+        "longitude": 37.6173
+    },
+    {
+        "id": "abu-dhabi",
+        "name": "Abu Dhabi",
+        "latitude": 24.4539,
+        "longitude": 54.3773
     }
+
 ]
