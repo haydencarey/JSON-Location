@@ -1,0 +1,41 @@
+{
+    "night1": {
+        "date": "2020-09-27 21:05:19",
+        "sleep_score": 92,
+        "mind_score": 96,
+        "breathing_rate": 18,
+        "body_score": 90,
+        "sleep_duration": 7.35,
+        "time_to_asleep": 0.30,
+        "light_sleep": 3.26,
+        "deep_sleep": 2.23,
+        "rem_sleep": 1.47,
+        "time_in_bed": 8.46
+    },
+    "night2": {
+        "date": "2020-09-28 21:05:19",
+        "sleep_score": 80,
+        "mind_score": 64,
+        "breathing_rate": 18,
+        "body_score": 78,
+        "sleep_duration": 7.1,
+        "time_to_asleep": 0.49,
+        "light_sleep": 4.49,
+        "deep_sleep": 1.30,
+        "rem_sleep": 0.41,
+        "time_in_bed": 7.43
+    },
+    "night3": {
+        "date": "2020-09-29 21:05:19",
+        "sleep_score": 55,
+        "mind_score": 76,
+        "breathing_rate": 18,
+        "body_score": 61,
+        "sleep_duration": 4.02,
+        "time_to_asleep": 2.42,
+        "light_sleep": 2.07,
+        "deep_sleep": 0.47,
+        "rem_sleep": 1.08,
+        "time_in_bed": 4.25
+    }
+}

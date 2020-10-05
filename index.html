@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's Asleep?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="project-heading">Who's Asleep and Who's Awake</h1>
+    <section class="first-section">
+        <p class="paragraph">Here's an-easy-to-use application that can determine if someone is asleep or awake depending on their location <br> Simply input the latitude and longitude coordinates of your desired location below. <br><br> <strong><span class="list-heading">Tips for formatting your coordinates:</span></strong>
+            <ol class="list">
+                <li>The coordinates should be in this format: 41.40338, 22.17403.
+                </li>
+                <li>Use the degree symbol as a decimal spot</li>
+                <li>List your latitude coordinates before the longitude coordinates</li>
+                <li>A south latitude coordinate is negative. A west longitude coordinate is negative</li>
+
+            </ol>
+        </p>
+        <select id="location-dropdown">
+            
+        </select>
+
+        <h2>Location: <span id="location"></span></h2>
+        <label>Latitude</label><input type="datetime" name="location" id="input-lat">
+        <label>Longitude</label><input type="datetime" name="location" id="input-long">
+        <button id="location-button">Get Info</button>
+        <h3 id="awakeAsleep" class="awakeAsleep"></h3>
+        <h3 id="location-city" class="location-city">Where:</h3>
+        <h3 id="location-zone" class="location-zone">Time Zone:</h3>
+        <h3 id="location-time" class="location-time">Time:</h3>
+    </section>
+
+
+
+    <button id="new-page" onclick="GoTo()">Click Me</button>
+
+    <a href="index0.html" target="_blank">Click Me</a>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

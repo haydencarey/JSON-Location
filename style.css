@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nightTime.jpg");
+    background-color: #191970;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+}
+
+.project-heading {
+    text-align: center;
+    margin: 100px 0;
+    font-size: xx-large;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
