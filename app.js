@@ -112,20 +112,20 @@ document.querySelector("#location-button").addEventListener('click', function() 
             // let typeElement = document.getElementById('pokemon-type')
             // typeElement.innerHTML = data.types[0].type.name;
         })
-        .catch(err => {
-            console.log(err)
-            let headingelement = document.getElementById('pokemon-title')
-            headingelement.innerHTML = "Could not find a Pokemon";
+        // .catch(err => {
+        //     console.log(err)
+        //     let headingelement = document.getElementById('pokemon-title')
+        //     headingelement.innerHTML = "Could not find a Pokemon";
 
-            let weightElement = document.getElementById('pokemon-weight')
-            weightElement.innerHTML = "";
+    //     let weightElement = document.getElementById('pokemon-weight')
+    //     weightElement.innerHTML = "";
 
-            let imageElement = document.getElementById('pokemon-image')
-            imageElement.src = "";
+    //     let imageElement = document.getElementById('pokemon-image')
+    //     imageElement.src = "";
 
-            let typeElement = document.getElementById('pokemon-type')
-            typeElement.innerHTML = "";
-        })
+    //     let typeElement = document.getElementById('pokemon-type')
+    //     typeElement.innerHTML = "";
+    // })
 })
 
 function GoTo() {
